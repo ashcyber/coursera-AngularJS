@@ -25,14 +25,14 @@
         }
         $scope.colorValue = "green";
         $scope.borderValue = "border: 1px solid green" ;
-
+        $scope.lunch = "";
       }
       // No data is entered
       else{
         $scope.result = "Please enter data first";
         $scope.colorValue = "red";
         $scope.borderValue = "border: 1px solid red"   ;
-
+        $scope.lunch ="";
       }
 
 
