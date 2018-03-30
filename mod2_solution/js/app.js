@@ -45,10 +45,10 @@
 
     var buy_items = [
       { name: "cookies", quantity: 10 }, 
-      { name: "cola", quantity: 2 },
-      { name: "chocolate", quantity: 9 },
-      { name: "juice", quantity: 5 },
-      { name: "apple", quantity: 6 }
+      { name: "colas", quantity: 2 },
+      { name: "chocolates", quantity: 9 },
+      { name: "juices", quantity: 5 },
+      { name: "apples", quantity: 6 }
     ]; 
 
     var bought_items = []; 
