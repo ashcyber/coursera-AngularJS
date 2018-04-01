@@ -42,10 +42,17 @@
   function NarrowItDownController(MenuSearchService){
     var menu = this; 
     menu.getMatchedMenuItems = function(searchTerm){
-        var promise = MenuSearchService.getMatchedMenuItems(searchTerm);  
-        promise.then(function(result){
-          menu.found = result; 
-        });
+        console.log(searchTerm); 
+        if(searchTerm !== ""){
+            var promise = MenuSearchService.getMatchedMenuItems(searchTerm);  
+            promise.then(function(result){
+              menu.found = result; 
+            });
+        }
+        else{
+          menu.found = []; 
+        }
+
     }; 
 
 
