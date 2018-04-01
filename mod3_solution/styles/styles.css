@@ -1,6 +1,11 @@
 h1 {
   margin-bottom: 30px;
 }
+
+.label-danger{
+  font-size: 14px;
+}
+
 input[type="text"] {
   width: 200px;
   float: left;
@@ -21,8 +26,5 @@ li{
 li button{
   margin-left: 20px;
 }
-
-
-
 
 
