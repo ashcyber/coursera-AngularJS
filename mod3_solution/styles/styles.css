@@ -1,0 +1,28 @@
+h1 {
+  margin-bottom: 30px;
+}
+input[type="text"] {
+  width: 200px;
+  float: left;
+}
+.narrow-button {
+  float: left;
+  margin-left: 10px;
+}
+
+ul{
+  list-style: none;
+}
+li{
+  padding: 5px;
+  font-size: 14px;
+}
+
+li button{
+  margin-left: 20px;
+}
+
+
+
+
+
