@@ -20,14 +20,14 @@
       // State for home 
   		.state('home', {
   			url: '/', 
-  			templateUrl: "/home.template.html"
+  			templateUrl: "https://ashcyber.github.io/coursera-AngularJS/mod4_solution/home.template.html"
   		})
 
 
       // State for categories 
   		.state('categories', {
   			url: '/categories', 
-  			templateUrl: "/js/categories/categories.template.html",
+  			templateUrl: "https://ashcyber.github.io/coursera-AngularJS/mod4_solution/js/categories/categories.template.html",
         controller: "CategoryController as categoryList", 
         resolve : {
           items : ['MenuDataService', function(MenuDataService){
@@ -44,7 +44,7 @@
 
       .state('items', {
         url : '/items/{itemId}', 
-        templateUrl: '/js/items/items.template.html', 
+        templateUrl: 'https://ashcyber.github.io/coursera-AngularJS/mod4_solution/js/items/items.template.html', 
         controller: "ItemDetailController as itemDetail", 
       resolve: {
           items: ['$stateParams', 'MenuDataService',
