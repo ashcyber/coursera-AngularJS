@@ -11,7 +11,7 @@
 
 	function RoutesConfig($stateProvider, $urlRouterProvider){
   		// Redirect to home page if no other URL matches 
-  		$urlRouterProvider.otherwise('/');
+  		$urlRouterProvider.otherwise('https://ashcyber.github.io/coursera-AngularJS/mod4_solution/');
 
 
 
