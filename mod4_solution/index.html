@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="MenuApp">
+<head>
+	<title>Module 4 Solution</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+</head>
+<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	  <ul class="navbar-nav">
+	    <li class="nav-item">
+	      <a class="nav-link" ui-sref="home"
+	      ui-sref-active="active">MenuApp</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" ui-sref="categories"
+	      ui-sref-active="active">Categories</a>
+	    </li>
+	  </ul>
+	</nav>
+
+
+    <ui-view></ui-view>
+
+
+
+
+	<!-- Angular Min & ui router -->
+	<script type="text/javascript" src="js/angular.min.js"></script>
+    <script src="js/angular-ui-router.min.js"></script>
+
+	
+	<!-- Modules -->
+	<script type="text/javascript" src="js/data/data.module.js"></script>
+	<script type="text/javascript" src="js/menuapp.module.js"></script>
+
+	
+	<!-- Controllers -->
+	<script type="text/javascript" src="js/categories/categories.controller.js"></script>
+
+	<script type="text/javascript" src="js/items/items.controller.js"></script>
+	
+
+	<!-- Services -->
+	<script type="text/javascript" src="js/data/menudata.service.js"></script>
+
+
+	<!-- Routes -->
+	<script type="text/javascript" src="js/routes.js"></script>
+
+
+</body>
+</html>

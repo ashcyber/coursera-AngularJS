@@ -1,0 +1,22 @@
+<div class="jumbotron jumbotron-fluid">
+	<div class="container">
+    	<h1>MenuApp</h1> 
+    	<p>
+    		<a ui-sref="home" ui-sref-active="active">Home</a> 
+	      	> <a ui-sref="categories" ui-sref-active="active"> Categories</a> > menuitems</p> 
+    </div>
+</div>
+<ul class="list-group container">
+	<a  ng-repeat="item in itemDetail.items"
+		class="list-group-item list-group-item-action">
+		<strong>Name</strong>: {{item.name}}
+		<br>
+		<strong>Short Name</strong>: {{item.short_name}}
+		<br>
+		<strong>Description</strong>: {{item.description}}
+
+	</a>
+</ul>
+
+
+<br>
